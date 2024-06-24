@@ -32,7 +32,7 @@ const Header = () => {
               <NavLink to={"culture"} className={"links"}>
                 CULTURE
               </NavLink>
-              <NavLink to={"caseStudies"} className={"links"}>
+              <NavLink to={"caseStudies"} className={"links pb-8"}>
                 CASE STUDIES
               </NavLink>
             </nav>
