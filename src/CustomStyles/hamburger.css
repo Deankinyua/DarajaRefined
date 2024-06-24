@@ -1,6 +1,6 @@
 :root {
   --primary: black;
-  --foreground: black;
+  --foreground: red;
   --animation-timing: 300ms ease-in-out;
   --gap: 4px;
   --bar-height: 2px;

@@ -2,6 +2,11 @@
   border: 1px solid red;
 }
 
+.margin_auto2{
+  margin: 0 auto;
+  width: 96%;
+}
+
 .min_width70 {
   min-width: 67%;
 }
@@ -11,9 +16,12 @@
 }
 
 .header_culture {
-  width: 96%;
+  /* width: 96%; */
+  width: 100%;
   margin-top: 7rem;
   margin: 0 auto;
+  color: white;
+  background-color: black;
 }
 
 @media (max-width: 640px) {
