@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "../CustomStyles/custom.css";
+import darajalogo from "../../public/DarajaLogo/FotoJet.png";
 
 const Header = () => {
   return (
@@ -9,8 +10,14 @@ const Header = () => {
           {" "}
           <input type="checkbox" id="checkbox" />{" "}
         </label> */}
-        <div className="flex justify-between">
-          <div className="add_border ml-4">image</div>
+        <div className="flex justify-between items-center">
+          <div className="add_border ml-4">
+            <div className="img_size">
+              <NavLink to={"/"}>
+                <img src={darajalogo} alt="The Logo of DarajaPlus" />
+              </NavLink>
+            </div>
+          </div>
           <div className="add_border min_width70 mr-4">
             <nav className="flex justify-between">
               <NavLink to={"/"} className={"text-red-600"}>
