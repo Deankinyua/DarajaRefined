@@ -74,7 +74,7 @@
 .hamburger-menu:has(input:checked) + .nav_container {
   translate: 0;
   position: relative;
-  min-height: 95vh;
+  min-height: 90vh;
 }
 
 nav > * {

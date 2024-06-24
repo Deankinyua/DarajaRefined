@@ -22,7 +22,7 @@ const Header = () => {
             </div>
           </div>
           <div className="min_width70 mr-4">
-            <nav className="flex justify-between flex-col gap-12">
+            <nav className="flex justify-between flex-col gap-20">
               <NavLink to={"/"} className={"links"}>
                 HOME
               </NavLink>
