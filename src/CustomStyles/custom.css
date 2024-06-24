@@ -9,3 +9,15 @@
 .img_size {
   width: 30%;
 }
+
+.header_culture {
+  width: 96%;
+  margin-top: 7rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .headerSection {
+    display: none;
+  }
+}
