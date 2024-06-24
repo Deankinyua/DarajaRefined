@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 // import "../styling/hamburger.css";
 import { useEffect } from "react";
+import Header from "../Components/Header";
 
 const RootLayout = () => {
   useEffect(() => {
@@ -15,9 +16,8 @@ const RootLayout = () => {
   }, []);
   return (
     <div className="root-layout">
-      <main className="main">
-        <Outlet></Outlet>
-      </main>
+      <Header></Header>
+      <Outlet></Outlet>
     </div>
   );
 };

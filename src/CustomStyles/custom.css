@@ -1,0 +1,7 @@
+.add_border {
+  border: 1px solid red;
+}
+
+.min_width70 {
+  min-width: 67%;
+}
