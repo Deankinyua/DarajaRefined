@@ -24,6 +24,32 @@
   background-color: black;
 }
 
+.box_shadow1 {
+  box-shadow: 15px 15px 20px 12px rgb(228, 220, 220) inset, 12px 18px 20px 15px rgb(83, 153, 177) inset;
+}
+
+.videoMain {
+  width: 100%;
+  height: 100vh;
+  background: 5px solid red;
+}
+
+.videoContainer {
+  width: 95%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.hero_video_container {
+  height: 100vh;
+}
+
+.hero_video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 640px) {
   .headerSection {
     display: none;

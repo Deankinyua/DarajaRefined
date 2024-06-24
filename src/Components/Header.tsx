@@ -1,17 +1,19 @@
 import { NavLink } from "react-router-dom";
 import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
-import darajalogo from "../../public/DarajaLogo/FotoJet.png";
+import darajalogo from "/DarajaLogo/FotoJet.png";
 import HeaderAtLargeScreens from "./HeaderAtLargeScreens";
 
 const Header = () => {
   return (
-    <div className="header_culture mb-6">
+    <div className="header_culture">
       <header className="sm:hidden">
-        <label className="hamburger-menu">
-          {" "}
-          <input type="checkbox" id="checkbox" />{" "}
-        </label>
+        {/* <div> */}
+          <label className="hamburger-menu">
+            {" "}
+            <input type="checkbox" id="checkbox" />{" "}
+          </label>
+        {/* </div> */}
 
         <div className="flex flex-col gap-6 justify-end nav_container">
           <div>
@@ -32,7 +34,7 @@ const Header = () => {
               <NavLink to={"culture"} className={"links"}>
                 CULTURE
               </NavLink>
-              <NavLink to={"caseStudies"} className={"links pb-8"}>
+              <NavLink to={"caseStudies"} className={"links pb-10"}>
                 CASE STUDIES
               </NavLink>
             </nav>

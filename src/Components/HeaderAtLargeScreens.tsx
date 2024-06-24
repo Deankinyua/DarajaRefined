@@ -6,7 +6,7 @@ import darajalogo from "../../public/DarajaLogo/FotoJet.png";
 
 const HeaderAtLargeScreens = () => {
   return (
-    <div className="headerSection">
+    <div className="headerSection box_shadow1">
       <header>
         <div className="flex justify-between items-center">
           <div>

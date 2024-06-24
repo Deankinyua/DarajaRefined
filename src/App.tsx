@@ -1,4 +1,5 @@
 import RootComponent from "./Components/RootComponent";
+import "../src/CustomStyles/custom.css"
 
 function App() {
   return (
