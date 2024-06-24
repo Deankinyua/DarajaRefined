@@ -17,19 +17,11 @@ const HeaderAtLargeScreens = () => {
             </div>
           </div>
           <div className="min_width70">
-            <nav className="flex justify-between">
-              <NavLink to={"/"} className={"text-red-600"}>
-                HOME
-              </NavLink>
-              <NavLink to={"about"} className={"text-red-600"}>
-                ABOUT
-              </NavLink>
-              <NavLink to={"culture"} className={"text-red-600"}>
-                CULTURE
-              </NavLink>
-              <NavLink to={"caseStudies"} className={"text-red-600"}>
-                CASE STUDIES
-              </NavLink>
+            <nav className="flex justify-between font-semibold">
+              <NavLink to={"/"}>HOME</NavLink>
+              <NavLink to={"about"}>ABOUT</NavLink>
+              <NavLink to={"culture"}>CULTURE</NavLink>
+              <NavLink to={"caseStudies"}>CASE STUDIES</NavLink>
             </nav>
           </div>
         </div>

@@ -76,3 +76,9 @@
   position: relative;
   min-height: 100vh;
 }
+
+nav > * {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
