@@ -8,12 +8,10 @@ const Header = () => {
   return (
     <div className="header_culture">
       <header className="sm:hidden">
-        {/* <div> */}
-          <label className="hamburger-menu">
-            {" "}
-            <input type="checkbox" id="checkbox" />{" "}
-          </label>
-        {/* </div> */}
+        <label className="hamburger-menu">
+          {" "}
+          <input type="checkbox" id="checkbox" />{" "}
+        </label>
 
         <div className="flex flex-col gap-6 justify-end nav_container">
           <div>

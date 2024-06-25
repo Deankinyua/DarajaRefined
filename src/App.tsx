@@ -4,7 +4,14 @@ import "../src/CustomStyles/custom.css"
 function App() {
   return (
     <div className="wrapper">
+
       <RootComponent />
+
+
+
+
+
+
     </div>
   );
 }
