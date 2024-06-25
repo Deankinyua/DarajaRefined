@@ -6,8 +6,8 @@ import HeaderAtLargeScreens from "./HeaderAtLargeScreens";
 
 const Header = () => {
   return (
-    <div className="header_culture">
-      <header className="sm:hidden">
+    <div>
+      <header className=" header_culture sm:hidden">
         <label className="hamburger-menu">
           {" "}
           <input type="checkbox" id="checkbox" />{" "}

@@ -62,6 +62,13 @@
   object-fit: cover;
 }
 
+.headerSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
 @media (max-width: 640px) {
   .headerSection {
     display: none;

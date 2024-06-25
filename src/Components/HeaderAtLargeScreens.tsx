@@ -6,7 +6,7 @@ import darajalogo from "/DarajaLogo/FotoJet.png";
 
 const HeaderAtLargeScreens = () => {
   return (
-    <div className="headerSection box_shadow1">
+    <div className="headerSection sm:bg-transparent">
       <header>
         <div className="flex justify-between items-center">
           <div>
@@ -17,7 +17,7 @@ const HeaderAtLargeScreens = () => {
             </div>
           </div>
           <div className="min_width70">
-            <nav className="flex justify-between font-semibold">
+            <nav className="flex justify-between font-semibold text-white">
               <NavLink to={"/"}>HOME</NavLink>
               <NavLink to={"/about"}>ABOUT</NavLink>
               <NavLink to={"/culture"}>CULTURE</NavLink>
