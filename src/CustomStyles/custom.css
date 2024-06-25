@@ -53,6 +53,11 @@
   left: 0;
   width: 100%;
   height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-image: fill 1
     linear-gradient(hsla(197, 50%, 58%, 0.3), hsla(0, 52%, 45%, 0.35));
 }

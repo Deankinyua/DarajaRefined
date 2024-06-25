@@ -10,9 +10,8 @@ const Home = () => {
         loop
         muted
       ></video>
-      <div className="overlay1"></div>
-      <div>
-        <h1>Welcome</h1>
+      <div className="overlay1">
+        <button>Get Started</button>
         <p>To my Site</p>
       </div>
     </div>
