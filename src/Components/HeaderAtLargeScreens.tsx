@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
-import darajalogo from "../../public/DarajaLogo/FotoJet.png";
+import darajalogo from "/DarajaLogo/FotoJet.png";
 
 const HeaderAtLargeScreens = () => {
   return (
@@ -19,9 +19,9 @@ const HeaderAtLargeScreens = () => {
           <div className="min_width70">
             <nav className="flex justify-between font-semibold">
               <NavLink to={"/"}>HOME</NavLink>
-              <NavLink to={"about"}>ABOUT</NavLink>
-              <NavLink to={"culture"}>CULTURE</NavLink>
-              <NavLink to={"caseStudies"}>CASE STUDIES</NavLink>
+              <NavLink to={"/about"}>ABOUT</NavLink>
+              <NavLink to={"/culture"}>CULTURE</NavLink>
+              <NavLink to={"/caseStudies"}>CASE STUDIES</NavLink>
             </nav>
           </div>
         </div>

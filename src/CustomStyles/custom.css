@@ -2,7 +2,7 @@
   border: 1px solid red;
 }
 
-.margin_auto2{
+.margin_auto2 {
   margin: 0 auto;
   width: 96%;
 }
@@ -22,21 +22,19 @@
   margin: 0 auto;
   color: white;
   background-color: black;
+  z-index: 20;
 }
 
 .box_shadow1 {
-  box-shadow: 10px 15px 17px 12px rgb(207, 197, 197) inset, 12px 18px 20px 15px rgb(57, 118, 148) inset;
+  box-shadow: 10px 15px 17px 12px rgb(207, 197, 197) inset,
+    12px 18px 20px 15px rgb(57, 118, 148) inset;
 }
 
 .overlay1 {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  border-image: fill 1
-  linear-gradient(hsla(0, 4%, 33%, 0.4), hsla(0, 12%, 45%, 0.3));
-
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .videoMain {

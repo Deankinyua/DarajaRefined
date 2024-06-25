@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-// import "../styling/hamburger.css";
 import { useEffect } from "react";
 import Header from "../Components/Header";
 
