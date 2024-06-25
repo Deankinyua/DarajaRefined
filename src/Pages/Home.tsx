@@ -1,4 +1,4 @@
-import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
+import harpicVideo from "../../public/Videos/videoplaybacklotus.mp4";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
         loop
         muted
       ></video>
+      <div className="overlay1"></div>
       <div>
         <h1>Welcome</h1>
         <p>To my Site</p>
