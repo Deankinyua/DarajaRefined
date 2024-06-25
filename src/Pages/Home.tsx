@@ -1,4 +1,4 @@
-import harpicVideo from "../../public/Videos/videoplaybacklotus.mp4";
+import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
 
 const Home = () => {
   return (
