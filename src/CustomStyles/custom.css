@@ -59,7 +59,7 @@
   align-items: center;
   justify-content: center;
   border-image: fill 1
-    linear-gradient(hsla(197, 50%, 58%, 0.3), hsla(0, 52%, 45%, 0.35));
+    linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.35));
 }
 
 .hero_video {
