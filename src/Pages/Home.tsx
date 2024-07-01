@@ -9,7 +9,7 @@ import { IMAGES } from "../Services/ImageService";
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
 import "../CustomStyles/about.css";
-import Form from "../AppComponents/Form";
+import Form, { formData } from "../AppComponents/Form";
 
 const Home = () => {
   const onSubmit = async (data: formData) => {
@@ -28,13 +28,14 @@ const Home = () => {
       ></video>
       <div className="overlay1">
         <div className="absolute left-10 bottom-48">
-          <Button variant="default" className="mr-6">
-            <span className="text-white-700">TALK TO US</span>
-
-            <Button variant="link" size="icon">
-              <ChevronRight className="h-4 w-4" />
+          <a href="#form">
+            <Button variant="default" className="mr-6">
+              <span className="text-white-700">TALK TO US</span>
+              <Button variant="link" size="icon">
+                <ChevronRight className="h-4 w-4" to={"form"} />
+              </Button>
             </Button>
-          </Button>
+          </a>
         </div>
       </div>
       <section className="md:flex">
@@ -57,7 +58,28 @@ const Home = () => {
         </div>
       </section>
 
+      <section>
+        <div className="text-center mt-3">
+          <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
+        </div>
+        <div>
+          <Marquee pauseOnClick={true} speed={15}>
+            <div className="brandsContainer">
+              {CLIENTS.map((client) => (
+                <div className="imgMarque clientContainer">
+                  <img src={client} alt="" />
+                </div>
+              ))}
+            </div>
+          </Marquee>
+        </div>
+      </section>
+
       <section className="sm:flex sm:align-center">
+        <section className="firstSection" id={"form"}>
+          <Form onSubmit={onSubmit}></Form>
+        </section>
+
         <section>
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight">
@@ -75,26 +97,6 @@ const Home = () => {
             <ImageSlider ImageUrls={IMAGES} />
           </div>
         </section>
-        <section className="firstSection">
-          <Form onSubmit={onSubmit}></Form>
-        </section>
-      </section>
-
-      <section>
-        <div className="text-center mt-3">
-          <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
-        </div>
-        <div>
-          <Marquee pauseOnClick={true} speed={15}>
-            <div className="brandsContainer">
-              {CLIENTS.map((client) => (
-                <div className="imgMarque clientContainer">
-                  <img src={client} alt="" />
-                </div>
-              ))}
-            </div>
-          </Marquee>
-        </div>
       </section>
     </div>
   );
