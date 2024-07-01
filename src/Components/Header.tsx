@@ -8,6 +8,11 @@ const Header = () => {
   return (
     <div>
       <header className=" header_culture sm:hidden">
+        <div className="logo_small_screen">
+          <NavLink to={"/"}>
+            <img src={darajalogo} alt="The Logo of DarajaPlus" />
+          </NavLink>
+        </div>
         <label className="hamburger-menu">
           {" "}
           <input type="checkbox" id="checkbox" />{" "}

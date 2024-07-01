@@ -84,6 +84,14 @@
   color: rgb(143, 136, 139);
 }
 
+.logo_small_screen {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 30%;
+  z-index: 1000;
+}
+
 @media (max-width: 610px) {
   .headerSection {
     display: none;
