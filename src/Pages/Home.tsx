@@ -12,7 +12,7 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <div className="absolute left-10 bottom-24">
+        <div className="absolute left-10 bottom-48">
           <Button variant="default">
             <span className="text-blue-600">GET STARTED</span>
           </Button>
