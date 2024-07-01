@@ -1,4 +1,5 @@
 import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
+import { Button } from "../../components/ui/button";
 
 const Home = () => {
   return (
@@ -11,8 +12,11 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <button>Get Started</button>
-        <p>To my Site</p>
+        <div className="absolute left-10 bottom-24">
+          <Button variant="default">
+            <span className="text-blue-600">GET STARTED</span>
+          </Button>
+        </div>
       </div>
     </div>
   );
