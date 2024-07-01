@@ -17,12 +17,11 @@
 }
 
 .header_culture {
-  /* width: 96%; */
   width: 100%;
   margin-top: 7rem;
   margin: 0 auto;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 .box_shadow1 {
