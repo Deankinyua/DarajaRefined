@@ -6,6 +6,9 @@ import "../CustomStyles/typography.css";
 import VideoService from "../Services/VideoService";
 import ImageSlider from "../Services/ImageSlider";
 import { IMAGES } from "../Services/ImageService";
+import Marquee from "react-fast-marquee";
+import { CLIENTS } from "../Services/ClientService";
+import "../CustomStyles/about.css";
 
 const Home = () => {
   return (
@@ -59,6 +62,20 @@ const Home = () => {
       <div className="home-imageSlider">
         <ImageSlider ImageUrls={IMAGES} />
       </div>
+
+      <div className="text-center mt-3">
+        <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
+      </div>
+
+      <Marquee pauseOnClick={true} speed={15}>
+        <div className="brandsContainer">
+          {CLIENTS.map((client) => (
+            <div className="imgMarque clientContainer">
+              <img src={client} alt="" />
+            </div>
+          ))}
+        </div>
+      </Marquee>
     </div>
   );
 };
