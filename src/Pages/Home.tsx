@@ -1,5 +1,5 @@
 import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
-import { Button } from "../../components/ui/button";
+import { Button } from "../components/ui/button";
 
 const Home = () => {
   return (
