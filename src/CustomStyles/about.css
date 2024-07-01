@@ -59,7 +59,7 @@
 .brandsContainer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  gap: 5rem;
+  gap: 2.5rem;
   grid-template-rows: repeat(3, 5rem);
   min-height: 40vh;
 }
@@ -69,7 +69,7 @@
 }
 
 .imgMarque {
-  width: 17rem;
+  width: 15rem;
   padding: 0.6rem;
   display: inline-block;
 }
