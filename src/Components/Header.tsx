@@ -18,7 +18,7 @@ const Header = () => {
           <input type="checkbox" id="checkbox" />{" "}
         </label>
 
-        <div className="flex flex-col gap-6 justify-end nav_container">
+        <div className="flex flex-col gap-6 justify-start nav_container">
           <div></div>
           <div className="min_width70 mr-4">
             <nav className="flex justify-between flex-col gap-10">
