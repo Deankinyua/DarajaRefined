@@ -50,32 +50,43 @@ const Home = () => {
           <VideoService videoName={video1} />
         </div>
       </section>
-      <div className="text-center">
-        <h1 className="text-4xl font-extrabold tracking-tight">
-          Award-Winning
-          <span> </span> <span> </span>
-          <span className="text-red-600"> Marketing and Communication </span>
-          <span> </span>
-          Agency
-        </h1>
-      </div>
-      <div className="home-imageSlider">
-        <ImageSlider ImageUrls={IMAGES} />
-      </div>
 
-      <div className="text-center mt-3">
-        <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
-      </div>
+      <section className="sm:flex">
+        <section>
+          <div className="text-center">
+            <h1 className="text-4xl font-extrabold tracking-tight">
+              Award-Winning
+              <span> </span> <span> </span>
+              <span className="text-red-600">
+                {" "}
+                Marketing and Communication{" "}
+              </span>
+              <span> </span>
+              Agency
+            </h1>
+          </div>
+          <div className="home-imageSlider">
+            <ImageSlider ImageUrls={IMAGES} />
+          </div>
+        </section>
+      </section>
 
-      <Marquee pauseOnClick={true} speed={15}>
-        <div className="brandsContainer">
-          {CLIENTS.map((client) => (
-            <div className="imgMarque clientContainer">
-              <img src={client} alt="" />
-            </div>
-          ))}
+      <section>
+        <div className="text-center mt-3">
+          <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
         </div>
-      </Marquee>
+        <div>
+          <Marquee pauseOnClick={true} speed={15}>
+            <div className="brandsContainer">
+              {CLIENTS.map((client) => (
+                <div className="imgMarque clientContainer">
+                  <img src={client} alt="" />
+                </div>
+              ))}
+            </div>
+          </Marquee>
+        </div>
+      </section>
     </div>
   );
 };
