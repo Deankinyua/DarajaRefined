@@ -81,12 +81,10 @@
 }
 
 .nav_links_big_screens:hover {
-  color: rgb(216, 14, 14);
-  border-bottom: 4px dashed black;
-  border-color: red;
+  color: rgb(143, 136, 139);
 }
 
-@media (max-width: 623px) {
+@media (max-width: 610px) {
   .headerSection {
     display: none;
   }
