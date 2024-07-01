@@ -9,8 +9,14 @@ import { IMAGES } from "../Services/ImageService";
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
 import "../CustomStyles/about.css";
+import Form from "../AppComponents/Form";
 
 const Home = () => {
+  const onSubmit = async (data: formData) => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    console.log(data);
+  };
+
   return (
     <div className="hero_video_container">
       <video
@@ -68,6 +74,9 @@ const Home = () => {
           <div className="home-imageSlider">
             <ImageSlider ImageUrls={IMAGES} />
           </div>
+        </section>
+        <section>
+          <Form onSubmit={onSubmit}></Form>
         </section>
       </section>
 
