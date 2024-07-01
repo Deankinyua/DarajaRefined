@@ -1,17 +1,10 @@
-import RootComponent from "./Components/RootComponent";
-import "../src/CustomStyles/custom.css"
+import RootComponent from "./AppComponents/RootComponent";
+import "../src/CustomStyles/custom.css";
 
 function App() {
   return (
     <div className="wrapper">
-
       <RootComponent />
-
-
-
-
-
-
     </div>
   );
 }

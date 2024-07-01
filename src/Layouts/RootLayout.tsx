@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { useEffect } from "react";
-import Header from "../Components/Header";
+import Header from "../AppComponents/Header";
 
 const RootLayout = () => {
   useEffect(() => {

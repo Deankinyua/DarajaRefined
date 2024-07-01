@@ -21,9 +21,6 @@ const Home = () => {
               <ChevronRight className="h-4 w-4" />
             </Button>
           </Button>
-          {/* <Button variant="default">
-            <span className="text-red-700">PARTNERS</span>
-          </Button> */}
         </div>
       </div>
     </div>
