@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:flex">
+      <section className="sm:flex sm:align-center">
         <section>
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight">
@@ -75,7 +75,7 @@ const Home = () => {
             <ImageSlider ImageUrls={IMAGES} />
           </div>
         </section>
-        <section>
+        <section className="firstSection">
           <Form onSubmit={onSubmit}></Form>
         </section>
       </section>

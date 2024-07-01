@@ -37,12 +37,10 @@ const Form = ({ onSubmit }: TProps) => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="name">Name</label>
         <Input {...register("name")} id="name" type="text" />
-        {errors.name && <p className="error-message">{errors.name.message}</p>}
+        {errors.name && <p className="text-red-700">{errors.name.message}</p>}
         <label htmlFor="email">Email</label>
         <Input {...register("email")} id="email" type="text" />{" "}
-        {errors.email && (
-          <p className="error-message">{errors.email.message}</p>
-        )}
+        {errors.email && <p className="text-red-700">{errors.email.message}</p>}
         <label htmlFor="message">Message</label>
         <Textarea
           placeholder="Type your message here."
@@ -50,7 +48,7 @@ const Form = ({ onSubmit }: TProps) => {
           id="message"
         />
         {errors.message && (
-          <p className="error-message">{errors.message.message}</p>
+          <p className="text-red-700">{errors.message.message}</p>
         )}
         <Button type="submit">Submit</Button>
         {isSubmitted && <p>Thank you for submitting the form!</p>}
