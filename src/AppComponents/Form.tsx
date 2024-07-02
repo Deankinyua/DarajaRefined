@@ -30,7 +30,7 @@ const Form = ({ onSubmit }: TProps) => {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitted },
+    formState: { errors },
   } = useForm<formData>({ resolver: zodResolver(schema) });
   return (
     <>
@@ -67,7 +67,6 @@ const Form = ({ onSubmit }: TProps) => {
         <Button type="submit" className="mt-3 mb-3">
           Submit
         </Button>
-
       </form>
     </>
   );
