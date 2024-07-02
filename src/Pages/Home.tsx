@@ -39,7 +39,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <section className="md:flex mt-8 firstSection">
+      <section className="md:flex mt-1 firstSection">
         <div className="firstSection">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
             Unlock Your
@@ -94,7 +94,7 @@ const Home = () => {
               Agency
             </h1>
           </div>
-          <div className="home-imageSlider">
+          <div className="home-imageSlider mt-5">
             <ImageSlider ImageUrls={IMAGES} />
           </div>
         </section>
