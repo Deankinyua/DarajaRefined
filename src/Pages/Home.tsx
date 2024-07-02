@@ -9,6 +9,7 @@ import { IMAGES } from "../Services/ImageService";
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
 import "../CustomStyles/about.css";
+import "../CustomStyles/custom.css";
 import Form, { formData } from "../AppComponents/Form";
 
 const Home = () => {
@@ -38,7 +39,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <section className="md:flex">
+      <section className="md:flex mt-8 firstSection">
         <div className="firstSection">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
             Unlock Your
@@ -46,7 +47,7 @@ const Home = () => {
             Unique
             <span className="text-red-600"> Approach</span>
           </h1>
-          <p className="text-xl">
+          <p className="text-xl leading-loose">
             Our dedication to increasing numbers has been the primary reason why
             we are trusted by the biggest brands. But what really sets us apart?
             Our commitment to brand campaigns with a purpose. We’re here to make
