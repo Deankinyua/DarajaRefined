@@ -32,7 +32,7 @@ const Home = () => {
         <div className="absolute left-10 bottom-48">
           <a href="#form">
             <Button variant="default" className="mr-6">
-              <span className="text-white-700">TALK TO US</span>
+              <span className="bgcolorbg">TALK TO US</span>
               <Button variant="link" size="icon">
                 <ChevronRight className="h-4 w-4" to={"form"} />
               </Button>

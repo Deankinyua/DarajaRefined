@@ -26,7 +26,7 @@
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
-  background-color: red;
+  background-color: #d3e619;
   z-index: 10000;
   content: "";
   height: var(--bar-height);
@@ -55,14 +55,14 @@
   rotate: 45deg;
   width: var(--x-length);
   translate: 0 calc(var(--bar-height) / -2);
-  background-color: red;
+  background-color: #d3e619;
 }
 
 .hamburger-menu:has(input:checked)::after {
   rotate: -45deg;
   width: var(--x-length);
   translate: 0 calc(var(--bar-height) / 2);
-  background-color: red;
+  background-color: #d3e619;
 }
 
 .nav_container {

@@ -2,6 +2,11 @@
   border: 1px solid red;
 }
 
+.bgcolorbg {
+  background-color: #d3e619;
+  color: black;
+}
+
 .nav_link_color {
   color: #0c0c0c;
 }
@@ -24,8 +29,8 @@
   width: 100%;
   margin-top: 7rem;
   margin: 0 auto;
-  color: black;
-  background-color: white;
+  background-color: #b79a97;
+  color: #000000;
 }
 
 .box_shadow1 {
