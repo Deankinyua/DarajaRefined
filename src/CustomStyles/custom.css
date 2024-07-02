@@ -2,6 +2,10 @@
   border: 1px solid red;
 }
 
+.nav_link_color {
+  color: #0c0c0c;
+}
+
 .margin_auto2 {
   margin: 0 auto;
   width: 96%;
@@ -57,7 +61,7 @@
   flex-direction: column;
   justify-content: center;
   border-image: fill 1
-    linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.35));
+    linear-gradient(hsla(0, 7%, 86%, 0.4), hsla(0, 0%, 0%, 0.35));
 }
 
 .hero_video {
