@@ -67,7 +67,9 @@ const Form = ({ onSubmit }: TProps) => {
         <Button type="submit" className="mt-3 mb-3">
           Submit
         </Button>
-        {isSubmitted && <p>Thank you for submitting the form!</p>}
+        {isSubmitted && (
+          <p className="text-blue-700">Thank you for submitting the form!</p>
+        )}
       </form>
     </>
   );
