@@ -2,7 +2,7 @@ import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
 import video1 from "../../public/Videos/Sunlight Sunny Side campaign.mp4";
 import { Button } from "../components/ui/button";
 import { ChevronRight } from "lucide-react";
-import "../CustomStyles/typography.css";
+import "../CustomStyles/home.css";
 import VideoService from "../Services/VideoService";
 import ImageSlider from "../Services/ImageSlider";
 import { IMAGES } from "../Services/ImageService";
@@ -60,7 +60,7 @@ const Home = () => {
 
       <section>
         <div className="text-center mt-3">
-          <h1 className="text-4xl font-extrabold tracking-tight">PARTNERS:</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight">Partners:</h1>
         </div>
         <div>
           <Marquee pauseOnClick={true} speed={15}>
@@ -76,7 +76,7 @@ const Home = () => {
       </section>
 
       <section className="sm:flex sm:align-center">
-        <section className="firstSection" id={"form"}>
+        <section className="firstSection mt-7 mb-7" id={"form"}>
           <Form onSubmit={onSubmit}></Form>
         </section>
 
