@@ -15,8 +15,8 @@ import Form, { formData } from "../AppComponents/Form";
 const Home = () => {
   const onSubmit = async (data: formData) => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    // why is there an error
     console.log(data);
+    window.location.reload();
   };
 
   return (
