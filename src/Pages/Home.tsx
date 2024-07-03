@@ -30,9 +30,9 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <div className="absolute left-10 bottom-48 py-2.5 px-2.5">
+        <div className="absolute left-10 bottom-20 py-2.5 px-2.5 md:left-28">
           <a href="#form" className="px-2.5">
-            <Button variant="default" className="mr-6 w-full">
+            <Button variant="default" className="mr-6 w-full md:py-6">
               <span className="bgcolorbg md:text-2xl">TALK TO US</span>
               <Button variant="link" size="icon">
                 <ChevronRight className="h-4 w-4" />
