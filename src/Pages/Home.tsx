@@ -11,6 +11,7 @@ import { CLIENTS } from "../Services/ClientService";
 import "../CustomStyles/about.css";
 import "../CustomStyles/custom.css";
 import Form, { formData } from "../AppComponents/Form";
+import TypeWriter from "../Services/TypeWriter";
 
 const Home = () => {
   const onSubmit = async (data: formData) => {
@@ -61,9 +62,7 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="text-center mt-3">
-          <h1 className="text-4xl font-extrabold tracking-tight">Partners:</h1>
-        </div>
+        <TypeWriter></TypeWriter>
         <div>
           <Marquee pauseOnClick={true} speed={15}>
             <div className="brandsContainer">
@@ -77,7 +76,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:flex sm:align-center">
+      <section className="sm:flex sm:align-center sm:mt-9">
         <section className="firstSection mt-7 mb-7" id={"form"}>
           <Form onSubmit={onSubmit}></Form>
         </section>
