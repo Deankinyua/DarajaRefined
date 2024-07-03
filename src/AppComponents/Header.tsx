@@ -22,16 +22,19 @@ const Header = () => {
           <div></div>
           <div className="min_width70 mr-4">
             <nav className="flex justify-between flex-col gap-10">
-              <NavLink to={"/"} className={"links text-2xl"}>
+              <NavLink to={"/"} className={"links text-2xl text-white"}>
                 HOME
               </NavLink>
-              <NavLink to={"about"} className={"links text-2xl"}>
+              <NavLink to={"about"} className={"links text-2xl text-white"}>
                 ABOUT
               </NavLink>
-              <NavLink to={"culture"} className={"links text-2xl"}>
+              <NavLink to={"culture"} className={"links text-2xl text-white"}>
                 CULTURE
               </NavLink>
-              <NavLink to={"caseStudies"} className={"links pb-10 text-2xl"}>
+              <NavLink
+                to={"caseStudies"}
+                className={"links pb-10 text-2xl text-white"}
+              >
                 CASE STUDIES
               </NavLink>
             </nav>
