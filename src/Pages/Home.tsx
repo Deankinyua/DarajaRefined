@@ -30,15 +30,27 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <div className="absolute left-10 bottom-24 py-2.5 px-2.5 md:left-28">
-          <a href="#form" className="px-2.5">
-            <Button variant="default" className="mr-6 w-full md:py-6">
-              <span className="bgcolorbg md:text-2xl">TALK TO US</span>
-              <Button variant="link" size="icon">
-                <ChevronRight className="h-4 w-4" />
+        <div className="absolute left-10 bottom-24 py-2.5 px-2.5 md:left-28 flex flex-col gap-2 sm:flex-row">
+          <div>
+            <a href="#form" className="px-2.5">
+              <Button variant="default" className="mr-6 w-full md:py-6">
+                <span className="bgcolorbg md:text-2xl">TALK TO US</span>
+                <Button variant="link" size="icon">
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
               </Button>
-            </Button>
-          </a>
+            </a>
+          </div>
+          <div>
+            <a href="#partners" className="px-2.5">
+              <Button variant="ghost" className="mr-6 w-full md:py-6">
+                <span className="bgcolorbg2 md:text-2xl">OUR PARTNERS</span>
+                <Button variant="link" size="icon">
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
       <section className="md:flex mt-1 firstSection">
@@ -61,7 +73,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id={"partners"}>
         <TypeWriter></TypeWriter>
         <div>
           <Marquee pauseOnClick={true} speed={15}>
