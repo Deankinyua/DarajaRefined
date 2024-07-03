@@ -28,8 +28,9 @@ export function AccordionDemo() {
       <AccordionItem value="item-3">
         <AccordionTrigger>Where are you located?</AccordionTrigger>
         <AccordionContent>
-          Yes. It&apos;s animated by default, but you can disable it if you
-          prefer.
+          Take a matatu number 46 at Kencom town then alight at Rubis stage
+          valley Arcade.Take a left to Korosho Rd then ask for Daraja plus
+          offices. (Hse. No. 4, Korosho Lane)
         </AccordionContent>
       </AccordionItem>
     </Accordion>
