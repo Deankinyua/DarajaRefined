@@ -70,7 +70,7 @@
   flex-direction: column;
   justify-content: center;
   border-image: fill 1
-    linear-gradient(hsla(0, 7%, 86%, 0.4), hsla(0, 0%, 0%, 0.35));
+    linear-gradient(hsla(0, 0%, 1%, 0.4), hsla(0, 0%, 0%, 0.35));
 }
 
 .hero_video {
