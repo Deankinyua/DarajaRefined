@@ -20,7 +20,9 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p>Frequently Asked Questions.</p>
+          <p className="mt-4 font-semibold underline">
+            Frequently Asked Questions.
+          </p>
           <AccordionDemo></AccordionDemo>
         </div>
       </div>
