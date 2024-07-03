@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
-import darajalogo from "/DarajaLogo/FotoJet.png";
+import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
 
 const HeaderAtLargeScreens = () => {
   return (
@@ -21,7 +21,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color"
+                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
                 }
               >
                 HOME
@@ -29,7 +29,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/about"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color"
+                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
                 }
               >
                 ABOUT
@@ -37,7 +37,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/culture"}
                 className={
-                  "md:text-lg nav_links_big_screens xl:text-2xl nav_link_color"
+                  "md:text-lg nav_links_big_screens xl:text-2xl nav_link_color1"
                 }
               >
                 CULTURE
@@ -45,7 +45,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/caseStudies"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color"
+                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
                 }
               >
                 CASE STUDIES

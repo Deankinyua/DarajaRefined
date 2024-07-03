@@ -3,12 +3,16 @@
 }
 
 .bgcolorbg {
-  background-color: #d3e619;
-  color: black;
+  background-color: #e92f16;
+  color: #0c0c0c;
 }
 
 .nav_link_color {
   color: #0c0c0c;
+}
+
+.nav_link_color1 {
+  color: #e92f16;
 }
 
 .margin_auto2 {
@@ -29,8 +33,8 @@
   width: 100%;
   margin-top: 7rem;
   margin: 0 auto;
-  background-color: #b79a97;
-  color: #000000;
+  background-color: #0c0c0c;
+  color: #e92f16;
 }
 
 .box_shadow1 {

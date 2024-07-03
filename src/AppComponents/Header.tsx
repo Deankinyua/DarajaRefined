@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
-import darajalogo from "/DarajaLogo/FotoJet.png";
+import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
 import HeaderAtLargeScreens from "./HeaderAtLargeScreens";
 
 const Header = () => {

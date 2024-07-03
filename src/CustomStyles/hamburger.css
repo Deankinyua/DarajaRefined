@@ -3,7 +3,7 @@
   --foreground: red;
   --animation-timing: 300ms ease-in-out;
   --gap: 4px;
-  --bar-height: 2px;
+  --bar-height: 3px;
   --top-margin: 7px;
   --right-margin: 10px;
   --bar-width: 30px;
@@ -26,7 +26,7 @@
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
-  background-color: #d3e619;
+  background-color: #e92f16;
   z-index: 10000;
   content: "";
   height: var(--bar-height);
@@ -55,14 +55,14 @@
   rotate: 45deg;
   width: var(--x-length);
   translate: 0 calc(var(--bar-height) / -2);
-  background-color: #d3e619;
+  background-color: #ffff;
 }
 
 .hamburger-menu:has(input:checked)::after {
   rotate: -45deg;
   width: var(--x-length);
   translate: 0 calc(var(--bar-height) / 2);
-  background-color: #d3e619;
+  background-color: #ffff;
 }
 
 .nav_container {
