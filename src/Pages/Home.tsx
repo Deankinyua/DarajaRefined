@@ -1,5 +1,5 @@
-import harpicVideo from "/Videos/HARPIC Door to Door.mp4";
-import video1 from "../../public/Videos/Sunlight Sunny Side campaign.mp4";
+import harpicVideo from "/src/Videos/HARPIC Door to Door.mp4";
+import video1 from "/src/Videos/Sunlight Sunny Side campaign.mp4";
 import { Button } from "../components/ui/button";
 import { ChevronRight } from "lucide-react";
 import "../CustomStyles/home.css";
