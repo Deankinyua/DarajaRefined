@@ -29,12 +29,12 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <div className="absolute left-10 bottom-48">
-          <a href="#form">
-            <Button variant="default" className="mr-6">
-              <span className="bgcolorbg">TALK TO US</span>
+        <div className="absolute left-10 bottom-48 py-2.5 px-2.5">
+          <a href="#form" className="px-2.5">
+            <Button variant="default" className="mr-6 w-full">
+              <span className="bgcolorbg md:text-2xl">TALK TO US</span>
               <Button variant="link" size="icon">
-                <ChevronRight className="h-4 w-4" to={"form"} />
+                <ChevronRight className="h-4 w-4" />
               </Button>
             </Button>
           </a>
