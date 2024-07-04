@@ -6,9 +6,15 @@
   padding: 1.5rem 1rem;
 }
 
-/* .about-intro {
+.centerizer {
+  margin: 0 auto;
+}
 
-} */
+.gridder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
 
 .projectsContainer {
   margin-bottom: 4rem;

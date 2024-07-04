@@ -1,10 +1,11 @@
 import { AccordionDemo } from "../AppComponents/Accordion";
+import "../CustomStyles/custom.css";
 
 const About = () => {
   return (
-    <div className="mt-10 about-wrapper">
-      <div className="sm:flex">
-        <div className="about-intro">
+    <div className="mt-10 about-wrapper w-11/12 centerizer">
+      <div className="sm:flex sm:justify-between sm:gap-12">
+        <div className="basis-2/4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">
             THE DARAJA PLUS STORY
           </h1>
