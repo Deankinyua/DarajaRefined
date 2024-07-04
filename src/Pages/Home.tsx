@@ -73,11 +73,22 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:flex sm:align-center sm:mt-9">
-        <section className="firstSection mt-7 mb-7" id={"form"}>
-          <Form onSubmit={onSubmit}></Form>
-        </section>
+      <section id={"partners"}>
+        <TypeWriter></TypeWriter>
+        <div>
+          <Marquee pauseOnClick={true} speed={15}>
+            <div className="brandsContainer">
+              {CLIENTS.map((client) => (
+                <div className="imgMarque clientContainer">
+                  <img src={client} alt="" />
+                </div>
+              ))}
+            </div>
+          </Marquee>
+        </div>
+      </section>
 
+      <section className="sm:flex sm:align-center sm:mt-9 sm:gap-12">
         <section>
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight">
@@ -95,21 +106,10 @@ const Home = () => {
             <ImageSlider ImageUrls={IMAGES} />
           </div>
         </section>
-      </section>
 
-      <section id={"partners"}>
-        <TypeWriter></TypeWriter>
-        <div>
-          <Marquee pauseOnClick={true} speed={15}>
-            <div className="brandsContainer">
-              {CLIENTS.map((client) => (
-                <div className="imgMarque clientContainer">
-                  <img src={client} alt="" />
-                </div>
-              ))}
-            </div>
-          </Marquee>
-        </div>
+        <section className="firstSection mt-7 mb-7" id={"form"}>
+          <Form onSubmit={onSubmit}></Form>
+        </section>
       </section>
     </div>
   );
