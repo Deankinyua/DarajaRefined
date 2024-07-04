@@ -1,3 +1,5 @@
+import "../CustomStyles/custom.css";
+
 type VideoTypes = {
   videoName: string;
 };
