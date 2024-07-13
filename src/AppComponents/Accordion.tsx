@@ -11,9 +11,10 @@ export function AccordionDemo() {
       <AccordionItem value="item-1">
         <AccordionTrigger>Are your BA's responsible?</AccordionTrigger>
         <AccordionContent>
-          Yes, our BA's take pride on being responsible. They consistently meet
-          targets, manage their tasks effectively, and take accountability for
-          their work. Ensuring high-quality outcomes is very important to them.
+          Yes, our Brand Ambassadors take pride on being responsible. They
+          consistently meet targets, manage their tasks effectively, and take
+          accountability for their work. Ensuring high-quality outcomes is very
+          important to them.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
