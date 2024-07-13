@@ -39,11 +39,17 @@ const About = () => {
           muted
         ></video>
         <div className="overlay1">
-          <div className="absolute left-10 bottom-24 py-2.5 px-2.5 md:left-28 flex flex-col gap-2 sm:flex-row">
+          <div className="flex flex-col gap-10 items-center justify-between">
+            <div className="w-3/4 centerizer text-center">
+              <h1 className="text-3xl sm:text-4xl md:text-4xl font-extrabold tracking-tight bgcolorbg2">
+                WORK WITH US TO ACHIEVE GREATER HEIGHTS
+              </h1>
+            </div>
+
             <div>
               <a href="#form" className="px-2.5">
                 <Button variant="default" className="mr-6 w-full md:py-6">
-                  <span className="bgcolorbg md:text-2xl">TALK TO US</span>
+                  <span className="bgcolorbg md:text-2xl">START NOW</span>
                   <Button variant="link" size="icon">
                     <ChevronRight className="h-4 w-4" />
                   </Button>
