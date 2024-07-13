@@ -39,17 +39,23 @@ const About = () => {
           muted
         ></video>
         <div className="overlay1">
-          <div className="flex flex-col gap-10 items-center justify-between">
-            <div className="w-3/4 centerizer text-center">
-              <h1 className="text-3xl sm:text-4xl md:text-4xl font-extrabold tracking-tight bgcolorbg2">
+          <div className="flex flex-col gap-10 items-start justify-center ml-9">
+            <div className="w-3/4 sm:w-1/2">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight bgcolorbg2 merriweather">
                 WORK WITH US TO ACHIEVE GREATER HEIGHTS
               </h1>
+              <p className="sm:text-xl">
+                Our secret? We’re not just about campaigns, we’re about causes.
+                Positive social impact is the core of everything we do.
+              </p>
             </div>
 
             <div>
-              <a href="#form" className="px-2.5">
-                <Button variant="default" className="mr-6 w-full md:py-6">
-                  <span className="bgcolorbg md:text-2xl">START NOW</span>
+              <a href="#form">
+                <Button variant="default" className="w-full md:py-6">
+                  <span className="bgcolorbg md:text-xl merriweather">
+                    START NOW
+                  </span>
                   <Button variant="link" size="icon">
                     <ChevronRight className="h-4 w-4" />
                   </Button>
