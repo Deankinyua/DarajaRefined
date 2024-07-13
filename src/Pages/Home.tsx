@@ -27,21 +27,23 @@ const Home = () => {
         muted
       ></video>
       <div className="overlay1">
-        <div className="absolute left-10 bottom-24 py-2.5 px-2.5 md:left-28 flex flex-col gap-2 sm:flex-row">
-          <div>
-            <a href="#form" className="px-2.5">
-              <Button variant="default" className="mr-6 w-full md:py-6">
-                <span className="bgcolorbg md:text-2xl">TALK TO US</span>
-                <Button variant="link" size="icon">
-                  <ChevronRight className="h-4 w-4" />
-                </Button>
-              </Button>
-            </a>
+        <div className="flex flex-col gap-10 items-start justify-center ml-9">
+          <div className="w-3/4 sm:w-1/2">
+            <h1 className="hidden md:block text-3xl md:text-5xl font-extrabold tracking-tight bgcolorbg2 merriweather mb-6">
+              Holding Your Hand Every Step of the Way
+            </h1>
+            <p className="sm:text-xl">
+              Our secret? We’re not just about campaigns, we’re about causes.
+              Positive social impact is the core of everything we do.
+            </p>
           </div>
+
           <div>
-            <a href="#partners" className="px-2.5">
-              <Button variant="ghost" className="mr-6 w-full md:py-6">
-                <span className="bgcolorbg2 md:text-2xl">OUR PARTNERS</span>
+            <a href="#form">
+              <Button variant="default" className="w-full md:py-6">
+                <span className="bgcolorbg md:text-xl merriweather">
+                  Our Partners
+                </span>
                 <Button variant="link" size="icon">
                   <ChevronRight className="h-4 w-4" />
                 </Button>
@@ -54,9 +56,9 @@ const Home = () => {
         <div className="firstSection">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
             Unlock Your
-            <span className="text-red-600"> Brand's</span> Potential with Our
+            <span className="bgcolorbg2"> Brand's</span> Potential with Our
             Unique
-            <span className="text-red-600"> Approach</span>
+            <span className="bgcolorbg2"> Approach</span>
           </h1>
           <p className="text-xl leading-loose">
             Our dedication to increasing numbers has been the primary reason why
@@ -85,16 +87,13 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:flex sm:align-center sm:mt-9 sm:gap-12">
+      <section className="sm:flex sm:align-center sm:mt-9 sm:gap-12 px-4">
         <section>
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight">
               Award-Winning
               <span> </span> <span> </span>
-              <span className="text-red-600">
-                {" "}
-                Marketing and Communication{" "}
-              </span>
+              <span className="bgcolorbg2"> Marketing and Communication </span>
               <span> </span>
               Agency
             </h1>

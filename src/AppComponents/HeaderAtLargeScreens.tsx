@@ -20,7 +20,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
+                  "md:text-lg xl:text-2xl nav_links_big_screens bgcolorbg2 merriweather"
                 }
               >
                 HOME
@@ -28,7 +28,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/about"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
+                  "md:text-lg xl:text-2xl nav_links_big_screens bgcolorbg2 merriweather"
                 }
               >
                 ABOUT
@@ -36,7 +36,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/culture"}
                 className={
-                  "md:text-lg nav_links_big_screens xl:text-2xl nav_link_color1"
+                  "md:text-lg nav_links_big_screens xl:text-2xl bgcolorbg2 merriweather"
                 }
               >
                 CULTURE
@@ -44,7 +44,7 @@ const HeaderAtLargeScreens = () => {
               <NavLink
                 to={"/caseStudies"}
                 className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens nav_link_color1"
+                  "md:text-lg xl:text-2xl nav_links_big_screens bgcolorbg2 merriweather"
                 }
               >
                 CASE STUDIES
