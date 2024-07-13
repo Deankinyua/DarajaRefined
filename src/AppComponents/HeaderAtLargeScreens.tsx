@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
 import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
+import { ModeToggle } from "../components/mode-toggle";
 
 const HeaderAtLargeScreens = () => {
   return (
@@ -10,10 +11,11 @@ const HeaderAtLargeScreens = () => {
       <header>
         <div className="flex justify-between items-center">
           <div>
-            <div className="img_size">
+            <div className="img_size flex gap-4">
               <NavLink to={"/"}>
                 <img src={darajalogo} alt="The Logo of DarajaPlus" />
               </NavLink>
+              <ModeToggle></ModeToggle>
             </div>
           </div>
           <div className="min_width70">

@@ -3,15 +3,17 @@ import "../CustomStyles/custom.css";
 import "../CustomStyles/hamburger.css";
 import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
 import HeaderAtLargeScreens from "./HeaderAtLargeScreens";
+import { ModeToggle } from "../components/mode-toggle";
 
 const Header = () => {
   return (
     <div>
       <header className="header_culture sm:hidden">
-        <div className="logo_small_screen">
+        <div className="logo_small_screen flex gap-4">
           <NavLink to={"/"}>
             <img src={darajalogo} alt="The Logo of DarajaPlus" />
           </NavLink>
+          <ModeToggle></ModeToggle>
         </div>
         <label className="hamburger-menu">
           {" "}

@@ -6,7 +6,7 @@ const About = () => {
     <div className="mt-10 about-wrapper w-11/12 centerizer">
       <div className="sm:flex sm:justify-between sm:gap-12">
         <div className="basis-2/4">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight cust_color">
             THE DARAJA PLUS STORY
           </h1>
           <p>
@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p className="mt-4 font-semibold underline">
+          <p className="mt-4 font-semibold underline cust_color">
             Frequently Asked Questions.
           </p>
           <AccordionDemo></AccordionDemo>
