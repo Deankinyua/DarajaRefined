@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <header className="header_culture sm:hidden">
-        <div className="logo_small_screen flex gap-4">
+        <div className="logo_small_screen flex gap-4 justify-between items-center">
           <NavLink to={"/"}>
             <img src={darajalogo} alt="The Logo of DarajaPlus" />
           </NavLink>

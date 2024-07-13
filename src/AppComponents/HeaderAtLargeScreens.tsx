@@ -8,7 +8,7 @@ const HeaderAtLargeScreens = () => {
       <header>
         <div className="flex justify-between items-center">
           <div>
-            <div className="img_size flex gap-4">
+            <div className="img_size flex gap-4 justify-between items-center">
               <NavLink to={"/"}>
                 <img src={darajalogo} alt="The Logo of DarajaPlus" />
               </NavLink>
