@@ -2,14 +2,11 @@ import harpicVideo from "../Videos/dettol.mp4";
 import video1 from "../Videos/HARPIC Door to Door.mp4";
 import { Button } from "../components/ui/button";
 import { ChevronRight } from "lucide-react";
-import "../CustomStyles/home.css";
 import VideoService from "../Services/VideoService";
 import ImageSlider from "../Services/ImageSlider";
 import { IMAGES } from "../Services/ImageService";
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
-import "../CustomStyles/about.css";
-import "../CustomStyles/custom.css";
 import Form, { formData } from "../AppComponents/Form";
 import TypeWriter from "../Services/TypeWriter";
 

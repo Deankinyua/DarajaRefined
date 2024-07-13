@@ -1,7 +1,4 @@
 import { NavLink } from "react-router-dom";
-
-import "../CustomStyles/custom.css";
-import "../CustomStyles/hamburger.css";
 import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
 import { ModeToggle } from "../components/mode-toggle";
 

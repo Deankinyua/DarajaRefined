@@ -1,5 +1,4 @@
 import { AccordionDemo } from "../AppComponents/Accordion";
-import "../CustomStyles/custom.css";
 
 const About = () => {
   return (

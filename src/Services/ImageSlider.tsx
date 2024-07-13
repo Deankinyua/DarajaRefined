@@ -1,7 +1,7 @@
 import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 
-import "../CustomStyles/imageSlider.css";
+// import "../CustomStyles/imageSlider.css";
 
 type ImageSliderProps = {
   ImageUrls: string[];
