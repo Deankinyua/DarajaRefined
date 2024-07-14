@@ -23,7 +23,7 @@ const About = () => {
             rewriting the playbook, proudly steering brands toward success.
           </p>
         </div>
-        <div className="max-w-md min400 mt-7">
+        <div className="max-w-md md:min400 mt-7">
           <h2 className="font-extrabold">WHAT PEOPLE SAY ABOUT US</h2>
           <h1 className="text-2xl sm:text-3xl md:text-3xl font-extrabold tracking-tight bgcolorbg2 merriweather">
             Client Feedback
