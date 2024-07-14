@@ -26,10 +26,10 @@ const Footer = () => {
               Nairobi
             </h1>
             <ul>
-              <li>No 4 Town House</li>
-              <li>Korosho Road</li>
-              <li>Valley Arcade</li>
-              <li>+254 702245534</li>
+              <li>No 4 Town House,</li>
+              <li>Korosho Road,</li>
+              <li>Valley Arcade,</li>
+              <li>+254 702245534,</li>
               <li>info@darajaplus.com</li>
             </ul>
           </section>
@@ -39,9 +39,9 @@ const Footer = () => {
               Kampala
             </h1>
             <ul>
-              <li>Ministers Village</li>
-              <li>Plot 34</li>
-              <li>Queen Maxima Road, off Matyrs Way</li>
+              <li>Ministers Village,</li>
+              <li>Plot 34,</li>
+              <li>Queen Maxima Road, off Matyrs Way,</li>
               <li>+256 772959946</li>
               <li>info@darajaplus.com</li>
             </ul>
@@ -52,10 +52,10 @@ const Footer = () => {
               Lusaka
             </h1>
             <ul>
-              <li>Plot 29</li>
-              <li>Mbeki Road</li>
-              <li>Valley Arcade</li>
-              <li>+260 727175469</li>
+              <li>Plot 29,</li>
+              <li>Mbeki Road,</li>
+              <li>Valley Arcade,</li>
+              <li>+260 727175469,</li>
               <li>info@darajaplus.com</li>
             </ul>
           </section>
