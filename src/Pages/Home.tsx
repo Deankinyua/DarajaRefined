@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
 import Form, { formData } from "../AppComponents/Form";
 import TypeWriter from "../Services/TypeWriter";
+import Footer from "../AppComponents/Footer";
 
 const Home = () => {
   const onSubmit = async (data: formData) => {
@@ -107,6 +108,7 @@ const Home = () => {
           <Form onSubmit={onSubmit}></Form>
         </section>
       </section>
+      <Footer></Footer>
     </div>
   );
 };

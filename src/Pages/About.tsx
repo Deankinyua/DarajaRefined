@@ -3,6 +3,7 @@ import { AccordionDemo } from "../AppComponents/Accordion";
 import { Button } from "../components/ui/button";
 import everestVideo from "../Videos/everestcorrect~2.mp4";
 import { FaQuoteLeft } from "react-icons/fa";
+import Footer from "../AppComponents/Footer";
 
 const About = () => {
   return (
@@ -97,6 +98,7 @@ const About = () => {
         </p>
         <AccordionDemo></AccordionDemo>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
