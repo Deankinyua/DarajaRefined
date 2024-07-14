@@ -29,8 +29,8 @@ const Home = () => {
       <div className="overlay1">
         <div className="flex flex-col gap-10 items-start justify-center ml-9">
           <div className="w-3/4 sm:w-1/2">
-            <h1 className="hidden md:block text-3xl md:text-5xl font-extrabold tracking-tight bgcolorbg2 merriweather mb-6">
-              Holding Your Hand Every Step of the Way
+            <h1 className="hidden md:block text-3xl md:text-4xl font-extrabold tracking-tight bgcolorbg2 merriweather mb-6">
+              Transforming Brands with Innovative Marketing Solutions
             </h1>
             <p className="sm:text-xl">
               Our secret? We’re not just about campaigns, we’re about causes.
