@@ -1,5 +1,9 @@
 import { NavLink } from "react-router-dom";
 import darajalogo from "/src/Assets/DarajaLogo/FotoJet.png";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -56,6 +60,12 @@ const Footer = () => {
             </ul>
           </section>
         </div>
+        <section className="flex py-8 justify-center gap-7">
+          <FaFacebook size={30} />
+          <FaSquareInstagram size={30} />
+          <FaXTwitter size={30} />
+          <IoLogoYoutube size={30} />
+        </section>
       </div>
     </div>
   );
