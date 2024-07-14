@@ -8,11 +8,11 @@ const About = () => {
   return (
     <div className="mt-10">
       <div className="md:flex md:justify-between about-wrapper centerizer sm:gap-12 sm:py-10 px-6 md:px-10">
-        <div className="basis-2/3">
+        <div className="basis-2/3 sm:px-7 md:px-0">
           <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight bgcolorbg2 merriweather">
             THE DARAJA PLUS STORY
           </h1>
-          <p className="min350 leading-relaxed">
+          <p className="min350 leading-relaxed lg:pr-8 lg:pt-5">
             We’re not your average marketing and communications company. We’re a
             team of innovators on a mission to reshape consumer behavior. From
             digital dynamism to ground-shaking activities, we bring brands to
@@ -23,7 +23,7 @@ const About = () => {
             rewriting the playbook, proudly steering brands toward success.
           </p>
         </div>
-        <div className="max-w-md md:min400 mt-7">
+        <div className="max-w-md md:min400 mt-7 sm:pl-7 md:pl-0">
           <h2 className="font-extrabold">WHAT PEOPLE SAY ABOUT US</h2>
           <h1 className="text-2xl sm:text-3xl md:text-3xl font-extrabold tracking-tight bgcolorbg2 merriweather">
             Client Feedback
