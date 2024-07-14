@@ -5,6 +5,7 @@ import "../src/CustomStyles/hamburger.css";
 import "../src/CustomStyles/about.css";
 import "../src/CustomStyles/home.css";
 import "../src/CustomStyles/imageSlider.css";
+import "../src/CustomStyles/footer.css";
 
 function App() {
   return (
