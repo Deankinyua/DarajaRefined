@@ -15,6 +15,14 @@
   padding: 1rem 1.2rem;
 }
 
+.minwidth50 {
+  min-width: 40%;
+}
+
+.maxwidth40 {
+  max-width: 40%;
+}
+
 .min350 {
   min-width: 350px;
 }

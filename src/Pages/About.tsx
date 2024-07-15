@@ -5,7 +5,15 @@ import everestVideo from "../Videos/everestcorrect~2.mp4";
 import { FaQuoteLeft } from "react-icons/fa";
 import Footer from "../AppComponents/Footer";
 
+import Form, { formData } from "../AppComponents/Form";
+
 const About = () => {
+  const onSubmit = async (data: formData) => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    console.log(data);
+    window.location.reload();
+  };
+
   return (
     <div className="mt-10">
       <div className="md:flex md:justify-between about-wrapper centerizer sm:gap-12 sm:py-10 px-6 md:px-10">
@@ -92,12 +100,19 @@ const About = () => {
         </div>
       </div>
 
-      <div className="max-w-md">
-        <p className="mt-4 font-semibold underline bgcolorbg2 merriweather">
-          Frequently Asked Questions.
-        </p>
-        <AccordionDemo></AccordionDemo>
-      </div>
+      <section className="my-6 sm:flex sm:justify-between sm:gap-12 w-11/12 centerizer">
+        <div className="sm:maxwidth40 sm:centerizer">
+          <p className="mt-4 font-semibold underline bgcolorbg2 merriweather">
+            Frequently Asked Questions.
+          </p>
+          <AccordionDemo></AccordionDemo>
+        </div>
+
+        <div className="my-7 px-6 minwidth50" id={"form"}>
+          <Form onSubmit={onSubmit}></Form>
+        </div>
+      </section>
+
       <Footer></Footer>
     </div>
   );

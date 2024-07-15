@@ -41,7 +41,7 @@ const Home = () => {
           </div>
 
           <div>
-            <a href="#form">
+            <a href="#partners">
               <Button variant="default" className="w-full md:py-6">
                 <span className="bgcolorbg md:text-xl merriweather">
                   Our Partners
