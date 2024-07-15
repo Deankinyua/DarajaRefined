@@ -6,21 +6,13 @@ import VideoService from "../Services/VideoService";
 import ImageSlider from "../Services/ImageSlider";
 import { IMAGES } from "../Services/ImageService";
 import nicah from "../Images/BaPictures/nicah.jpeg";
-
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
-import Form, { formData } from "../AppComponents/Form";
 import TypeWriter from "../Services/TypeWriter";
 import Footer from "../AppComponents/Footer";
 import Cards from "../AppComponents/Cards";
 
 const Home = () => {
-  const onSubmit = async (data: formData) => {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log(data);
-    window.location.reload();
-  };
-
   return (
     <div className="hero_video_container">
       <video
