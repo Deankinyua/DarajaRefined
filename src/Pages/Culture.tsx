@@ -6,6 +6,7 @@ import culture3 from "../Assets/TeamPictures/fun.jpg";
 import culture4 from "../Assets/TeamPictures/nature.jpg";
 import culture5 from "../Assets/TeamPictures/competition-768x1024.jpg";
 import culture6 from "../Assets/TeamPictures/celebration.jpg";
+// import
 
 import "../CustomStyles/home.css";
 
