@@ -41,14 +41,6 @@ const HeaderAtLargeScreens = () => {
               >
                 CULTURE
               </NavLink>
-              <NavLink
-                to={"/caseStudies"}
-                className={
-                  "md:text-lg xl:text-2xl nav_links_big_screens bgcolorbg2 merriweather"
-                }
-              >
-                CASE STUDIES
-              </NavLink>
             </nav>
           </div>
         </div>

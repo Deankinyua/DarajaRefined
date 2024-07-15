@@ -31,12 +31,6 @@ const Header = () => {
               <NavLink to={"culture"} className={"links text-2xl text-white"}>
                 CULTURE
               </NavLink>
-              <NavLink
-                to={"caseStudies"}
-                className={"links pb-10 text-2xl text-white"}
-              >
-                CASE STUDIES
-              </NavLink>
             </nav>
           </div>
         </div>
