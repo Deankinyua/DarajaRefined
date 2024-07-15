@@ -9,7 +9,9 @@ export function AccordionDemo() {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
-        <AccordionTrigger>Are your BA's responsible?</AccordionTrigger>
+        <AccordionTrigger>
+          Are your Brand Ambassadors responsible?
+        </AccordionTrigger>
         <AccordionContent>
           Yes, our Brand Ambassadors take pride on being responsible. They
           consistently meet targets, manage their tasks effectively, and take

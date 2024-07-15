@@ -100,7 +100,7 @@ const About = () => {
         </div>
       </div>
 
-      <section className="my-6 sm:flex sm:justify-between sm:gap-12 w-11/12 centerizer">
+      <section className="my-6 md:flex sm:justify-between sm:gap-12 w-11/12 centerizer">
         <div className="sm:maxwidth40 sm:centerizer">
           <p className="mt-4 font-semibold underline bgcolorbg2 merriweather">
             Frequently Asked Questions.
@@ -108,7 +108,7 @@ const About = () => {
           <AccordionDemo></AccordionDemo>
         </div>
 
-        <div className="my-7 px-6 minwidth50" id={"form"}>
+        <div className="my-7 px-6 md:my-0 minwidth50 lg:minwidth60" id={"form"}>
           <Form onSubmit={onSubmit}></Form>
         </div>
       </section>

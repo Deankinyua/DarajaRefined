@@ -10,3 +10,20 @@
   /* margin: 0 auto; */
   margin-bottom: 3rem;
 }
+
+.cuimg_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.maxwidth50 {
+  max-width: 50%;
+}
+
+.maxwidth500 {
+  max-width: 500px;
+}
+
+.minwidth45 {
+  min-width: 45%;
+}
