@@ -10,6 +10,7 @@ import { CLIENTS } from "../Services/ClientService";
 import Form, { formData } from "../AppComponents/Form";
 import TypeWriter from "../Services/TypeWriter";
 import Footer from "../AppComponents/Footer";
+import Cards from "../AppComponents/Cards";
 
 const Home = () => {
   const onSubmit = async (data: formData) => {
@@ -53,6 +54,16 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <section>
+        <div className="pt-4">
+          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight bgcolorbg2 merriweather text-center">
+            What We Offer:
+          </h1>
+          <Cards />
+        </div>
+      </section>
+
       <section className="md:flex mt-1 firstSection">
         <div className="firstSection">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
@@ -61,30 +72,16 @@ const Home = () => {
             Unique
             <span className="bgcolorbg2"> Approach</span>
           </h1>
-          <p className="text-xl leading-loose">
+          <p className="text-xl">
             Our dedication to increasing numbers has been the primary reason why
             we are trusted by the biggest brands. But what really sets us apart?
             Our commitment to brand campaigns with a purpose. We’re here to make
             waves and make them count!
           </p>
         </div>
+
         <div className="videoContainer">
           <VideoService videoName={video1} />
-        </div>
-      </section>
-
-      <section id={"partners"}>
-        <TypeWriter></TypeWriter>
-        <div>
-          <Marquee pauseOnClick={true} speed={15}>
-            <div className="brandsContainer">
-              {CLIENTS.map((client) => (
-                <div className="imgMarque clientContainer">
-                  <img src={client} alt="" />
-                </div>
-              ))}
-            </div>
-          </Marquee>
         </div>
       </section>
 
@@ -108,6 +105,22 @@ const Home = () => {
           <Form onSubmit={onSubmit}></Form>
         </section>
       </section>
+
+      <section id={"partners"}>
+        <TypeWriter></TypeWriter>
+        <div>
+          <Marquee pauseOnClick={true} speed={15}>
+            <div className="brandsContainer">
+              {CLIENTS.map((client) => (
+                <div className="imgMarque clientContainer">
+                  <img src={client} alt="" />
+                </div>
+              ))}
+            </div>
+          </Marquee>
+        </div>
+      </section>
+
       <Footer></Footer>
     </div>
   );
