@@ -12,6 +12,9 @@ import "../CustomStyles/home.css";
 const Culture = () => {
   return (
     <div className="mt-14">
+      <h1 className="text-3xl md:text-5xl pt-6 font-extrabold tracking-tight merriweather text-center">
+        Our Culture
+      </h1>
       <div className="my-6 px-4 sm:flex sm:gap-5 sm:items-center sm:justify-between sm:px-8">
         <div className="maxwidth500">
           <h1 className="text-3xl sm:text-3xl font-extrabold tracking-tight merriweather">

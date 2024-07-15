@@ -5,6 +5,8 @@ import { ChevronRight } from "lucide-react";
 import VideoService from "../Services/VideoService";
 import ImageSlider from "../Services/ImageSlider";
 import { IMAGES } from "../Services/ImageService";
+import nicah from "../Images/BaPictures/nicah.jpeg";
+
 import Marquee from "react-fast-marquee";
 import { CLIENTS } from "../Services/ClientService";
 import Form, { formData } from "../AppComponents/Form";
@@ -85,7 +87,14 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sm:flex sm:align-center sm:mt-9 sm:gap-12 px-4">
+      <section className="md:flex sm:align-center sm:mt-9 sm:gap-12 px-4">
+        <section
+          className="hidden md:block firstSection maxwidth500 mt-7 mb-7"
+          id={"form"}
+        >
+          <img src={nicah} alt="Image of Brand Anbassador" />
+        </section>
+
         <section>
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight">
@@ -101,8 +110,11 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="firstSection mt-7 mb-7" id={"form"}>
-          <Form onSubmit={onSubmit}></Form>
+        <section
+          className="md:hidden firstSection maxwidth500 mt-7 mb-7"
+          id={"form"}
+        >
+          <img src={nicah} alt="Image of Brand Anbassador" />
         </section>
       </section>
 
