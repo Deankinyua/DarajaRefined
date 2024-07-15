@@ -35,7 +35,7 @@ const Form = ({ onSubmit }: TProps) => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h1 className="text-center text-2xl font-extrabold tracking-tight">
+        <h1 className="text-center text-2xl font-extrabold tracking-tight bgcolorbg2">
           Send Us A Message:
         </h1>
         <label htmlFor="name">Name</label>
