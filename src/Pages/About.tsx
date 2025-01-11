@@ -6,12 +6,14 @@ import { FaQuoteLeft } from "react-icons/fa";
 import Footer from "../AppComponents/Footer";
 
 import Form, { formData } from "../AppComponents/Form";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   const onSubmit = async (data: formData) => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
+    navigate("/");
     console.log(data);
-    window.location.reload();
   };
 
   return (
@@ -74,7 +76,7 @@ const About = () => {
         <div className="overlay1">
           <div className="flex flex-col gap-10 items-start justify-center ml-9">
             <div className="w-3/4 sm:w-1/2">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight bgcolorbg2 merriweather mb-6">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight  merriweather mb-6">
                 Partner With Us And Achieve Greater Heights
               </h1>
               <p className="sm:text-xl">
@@ -109,7 +111,7 @@ const About = () => {
         </div>
 
         <div className="my-7 px-6 md:my-0 minwidth50 lg:minwidth60" id={"form"}>
-          <Form onSubmit={onSubmit}></Form>
+          <Form onSubmit={(data) => onSubmit(data)}></Form>
         </div>
       </section>
 
