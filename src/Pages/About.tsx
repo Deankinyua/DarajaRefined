@@ -113,6 +113,19 @@ const About = () => {
         <div className="my-7 px-6 md:my-0 minwidth50 lg:minwidth60" id={"form"}>
           <Form onSubmit={(data) => onSubmit(data)}></Form>
         </div>
+
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mzB1VGEGcSU?si=EUBm5kQbhikzfN5J"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
 
       <Footer></Footer>
